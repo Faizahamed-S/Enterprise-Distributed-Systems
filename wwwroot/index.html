@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deloitte Tax Bot</title>
+</head>
+<body>
+    <div id="chatWindow" style="border: 1px solid black; height: 300px; overflow: auto;">
+    </div>
+
+    <input type="text" id="userMessage" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+       function sendMessage() {
+    const userMessage = document.getElementById("userMessage").value;
+    fetch("/api/chat", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ text: userMessage })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        document.getElementById("chatWindow").innerHTML += "You: " + userMessage + "<br/>";
+        document.getElementById("chatWindow").innerHTML += "Bot: " + data.text + "<br/>";
+        document.getElementById("userMessage").value = "";
+    })
+    .catch(error => {
+        document.getElementById("chatWindow").innerHTML += "Bot: " + "Sorry, there was an error processing your request." + "<br/>";
+    });
+        }
+    </script>
+</body>
+</html>

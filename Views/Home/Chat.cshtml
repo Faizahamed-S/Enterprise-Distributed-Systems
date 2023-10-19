@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Chat";
+}
+
+<h2>Deloitte Tax Bot</h2>
+
+<div id="chatWindow" style="border: 1px solid black; height: 300px; overflow: auto;"></div>
+<input type="text" id="userMessage" placeholder="Type your message..." />
+<button onclick="sendMessage()">Send</button>
+
+<script>
+    function sendMessage() {
+        const userMessage = document.getElementById("userMessage").value;
+        fetch("/api/chat", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ text: userMessage })
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("chatWindow").innerHTML += "You: " + userMessage + "<br/>";
+            document.getElementById("chatWindow").innerHTML += "Bot: " + data.text + "<br/>";
+            document.getElementById("userMessage").value = "";
+        });
+    }
+</script>

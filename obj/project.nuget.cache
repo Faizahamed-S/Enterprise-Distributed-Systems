@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BwIMGYpr+u77XfbcPC8MwaYcHHdyQLWWeot0Ysem4Vl+j2Jn+N6/BdlcXfkokjtKNm8dxpaxO4LBynxe2jCRjA==",
+  "success": true,
+  "projectFilePath": "/Users/faizahamedshaik/Desktop/Project/eds/eds.csproj",
+  "expectedPackageFiles": [
+    "/Users/faizahamedshaik/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
