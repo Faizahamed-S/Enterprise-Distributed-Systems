@@ -16,34 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/faizahamedshaik/Desktop/Project/eds
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Home/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGF0LmNzaHRtbA==
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Home/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvSG9tZS9DaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/faizahamedshaik/Desktop/Project/eds/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-mtxvaikk5g
+[/Users/faizahamedshaik/Desktop/Project/eds/Assignment4/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXNzaWdubWVudDQvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zko3u3y41w
